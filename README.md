@@ -2,7 +2,7 @@
 
 Arcora homepage: https://www.arcora-ai.com/
 
-![Arcora layered architecture for AutoCAD agents](../website/assets/agent-two-foundations-mindmap.svg)
+![Arcora layered architecture for AutoCAD agents](assets/agent-two-foundations-mindmap.svg)
 
 ## Overview
 

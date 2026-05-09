@@ -1,0 +1,83 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Arcora layered architecture for AutoCAD agents</title>
+  <desc id="desc">A layered diagram with common AI agents on top, Arcora in the middle, and the same AutoCAD document open across multiple clients at the bottom.</desc>
+  <rect width="1280" height="720" rx="32" fill="#F6F8FB"/>
+
+  <rect x="96" y="80" width="1088" height="150" rx="24" fill="#FFFFFF" stroke="#C9D5E3"/>
+  <text x="128" y="122" fill="#5C6B7D" font-family="Arial, 'Noto Sans SC', sans-serif" font-size="15" font-weight="700" letter-spacing="1.4">
+    AGENT
+  </text>
+
+  <rect x="154" y="150" width="210" height="48" rx="14" fill="#152033"/>
+  <text x="259" y="181" text-anchor="middle" fill="#FFFFFF" font-family="Arial, 'Noto Sans SC', sans-serif" font-size="17" font-weight="700">
+    Claude Code
+  </text>
+
+  <rect x="408" y="150" width="210" height="48" rx="14" fill="#243B55"/>
+  <text x="513" y="181" text-anchor="middle" fill="#FFFFFF" font-family="Arial, 'Noto Sans SC', sans-serif" font-size="17" font-weight="700">
+    Codex
+  </text>
+
+  <rect x="662" y="150" width="210" height="48" rx="14" fill="#315F7D"/>
+  <text x="767" y="181" text-anchor="middle" fill="#FFFFFF" font-family="Arial, 'Noto Sans SC', sans-serif" font-size="17" font-weight="700">
+    Cursor Agent
+  </text>
+
+  <rect x="916" y="150" width="210" height="48" rx="14" fill="#58728C"/>
+  <text x="1021" y="181" text-anchor="middle" fill="#FFFFFF" font-family="Arial, 'Noto Sans SC', sans-serif" font-size="17" font-weight="700">
+    Custom Agent
+  </text>
+
+  <path d="M259 230V314" stroke="#8EA0B5" stroke-width="3" stroke-linecap="round"/>
+  <path d="M513 230V314" stroke="#8EA0B5" stroke-width="3" stroke-linecap="round"/>
+  <path d="M767 230V314" stroke="#8EA0B5" stroke-width="3" stroke-linecap="round"/>
+  <path d="M1021 230V314" stroke="#8EA0B5" stroke-width="3" stroke-linecap="round"/>
+
+  <rect x="164" y="314" width="952" height="106" rx="24" fill="#EAF0F7" stroke="#9FB0C4" stroke-width="2"/>
+  <text x="640" y="358" text-anchor="middle" fill="#152033" font-family="Arial, 'Noto Sans SC', sans-serif" font-size="28" font-weight="800">
+    Arcora
+  </text>
+  <text x="640" y="388" text-anchor="middle" fill="#4D5E72" font-family="Arial, 'Noto Sans SC', sans-serif" font-size="17">
+    shared workspace · shared state · operation capabilities
+  </text>
+
+  <path d="M640 420V506" stroke="#8EA0B5" stroke-width="3" stroke-linecap="round"/>
+  <path d="M260 506H1020" stroke="#8EA0B5" stroke-width="3" stroke-linecap="round"/>
+  <path d="M260 506V536" stroke="#8EA0B5" stroke-width="3" stroke-linecap="round"/>
+  <path d="M640 506V536" stroke="#8EA0B5" stroke-width="3" stroke-linecap="round"/>
+  <path d="M1020 506V536" stroke="#8EA0B5" stroke-width="3" stroke-linecap="round"/>
+
+  <rect x="96" y="536" width="330" height="118" rx="20" fill="#FFFFFF" stroke="#C9D5E3"/>
+  <rect x="124" y="568" width="78" height="54" rx="8" fill="#F7FAFD" stroke="#9FB0C4"/>
+  <path d="M138 588H188" stroke="#166A8F" stroke-width="2"/>
+  <path d="M138 604H172" stroke="#166A8F" stroke-width="2"/>
+  <text x="224" y="588" fill="#152033" font-family="Arial, 'Noto Sans SC', sans-serif" font-size="18" font-weight="700">
+    AutoCAD Client A
+  </text>
+  <text x="224" y="616" fill="#5C6B7D" font-family="Arial, 'Noto Sans SC', sans-serif" font-size="15">
+    same drawing document
+  </text>
+
+  <rect x="475" y="536" width="330" height="118" rx="20" fill="#FFFFFF" stroke="#C9D5E3"/>
+  <rect x="503" y="568" width="78" height="54" rx="8" fill="#F7FAFD" stroke="#9FB0C4"/>
+  <path d="M517 588H567" stroke="#166A8F" stroke-width="2"/>
+  <path d="M517 604H551" stroke="#166A8F" stroke-width="2"/>
+  <text x="603" y="588" fill="#152033" font-family="Arial, 'Noto Sans SC', sans-serif" font-size="18" font-weight="700">
+    AutoCAD Client B
+  </text>
+  <text x="603" y="616" fill="#5C6B7D" font-family="Arial, 'Noto Sans SC', sans-serif" font-size="15">
+    same drawing document
+  </text>
+
+  <rect x="854" y="536" width="330" height="118" rx="20" fill="#FFFFFF" stroke="#C9D5E3"/>
+  <rect x="882" y="568" width="78" height="54" rx="8" fill="#F7FAFD" stroke="#9FB0C4"/>
+  <path d="M896 588H946" stroke="#166A8F" stroke-width="2"/>
+  <path d="M896 604H930" stroke="#166A8F" stroke-width="2"/>
+  <text x="982" y="588" fill="#152033" font-family="Arial, 'Noto Sans SC', sans-serif" font-size="18" font-weight="700">
+    AutoCAD Client C
+  </text>
+  <text x="982" y="616" fill="#5C6B7D" font-family="Arial, 'Noto Sans SC', sans-serif" font-size="15">
+    same drawing document
+  </text>
+
+</svg>
